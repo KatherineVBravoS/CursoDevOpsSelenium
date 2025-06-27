@@ -23,7 +23,7 @@ jobs:
       uses: browser-actions/setup-chrome@v1
       with:
         chrome-version: stable
-        install-chromedriver: true
+        install-chromedriver: trues
             
     - name: Install dependencies
       run: |
